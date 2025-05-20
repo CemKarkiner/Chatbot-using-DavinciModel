@@ -32,8 +32,8 @@ form.addEventListener("submit", async (e) =>
         },
       }
     );
-    const chatbotResponse = response.data.choices[0].text;
-    messages.innerHTML += `<div class="message bot-message"><span>${chatbotResponse}</span></div>`;
+    const modelResponse = response.data.choices[0].text;
+    messages.innerHTML += `<div class="message bot-message"><span>${modelResponse}</span></div>`;
   }
   catch (error) 
   {
