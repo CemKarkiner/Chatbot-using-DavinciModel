@@ -1,2 +1,2 @@
-# CHAT_GPT
-All project developed using chat GPT and Open AI API
+# Chatbot
+## A simple chatbot that uses OPENAI's davinci model
